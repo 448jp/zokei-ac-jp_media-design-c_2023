@@ -1,0 +1,31 @@
+.center {
+    width: 40%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: burlywood;
+}
+
+.sub {
+    flex-basis: 150px;
+    background-color: rgb(226, 112, 255);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    height: 100px;
+    background-color: darkseagreen;
+}
