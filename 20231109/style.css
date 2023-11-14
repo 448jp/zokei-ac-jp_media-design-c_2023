@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 92%;
+    }
+}
+
+.column-a {
+    background-color: darkorange;
+    flex-grow: 1;
+    height: 500px;
+}
+
+.column-b {
+    background-color: forestgreen;
+    flex-grow: 1;
+    height: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .column-a {
+        background-color: blueviolet;
+    }
+}
